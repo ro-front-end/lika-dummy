@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CardItem from "./CardItem";
 import { ethicQuestions } from "../../utils/mockData";
+import CardItem from "./cardItem";
 
 export default function CardList() {
   const [index, setIndex] = useState(0);

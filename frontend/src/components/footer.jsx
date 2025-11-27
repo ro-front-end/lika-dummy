@@ -10,7 +10,7 @@ function Footer() {
       <div>
         <img
           className="w-20 sm:w-28 p-4"
-          src="../../public/lika-logo.png"
+          src="/lika-logo.png"
           alt="Lika logo"
         />
       </div>

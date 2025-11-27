@@ -38,7 +38,7 @@ export default function CardList() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center gap-4 mt-4">
+    <div className="flex flex-col justify-center items-center gap-4 mt-2">
       <p className="text-sm text-gray-600">
         {index + 1} / {ethicQuestions.length}
       </p>

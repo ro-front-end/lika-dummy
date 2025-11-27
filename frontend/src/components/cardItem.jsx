@@ -136,7 +136,7 @@ export default function CardItem({ card, onSwipe, lastResult }) {
   return (
     <div
       ref={elRef}
-      className="bg-white rounded-3xl shadow-2xl shadow-neutral-700 w-76 select-none cursor-grab active:cursor-grabbing flex flex-col gap-4"
+      className="bg-white rounded-3xl shadow-2xl shadow-neutral-700 w-72 select-none cursor-grab active:cursor-grabbing flex flex-col gap-4"
       style={{
         transform: `translateX(${posX}px) rotate(${rotate}deg)`,
         transition,
@@ -151,7 +151,7 @@ export default function CardItem({ card, onSwipe, lastResult }) {
       <img
         src={card.image}
         alt=""
-        className="w-full h-40 object-cover rounded-t-3xl"
+        className="w-full h-36 object-cover rounded-t-3xl"
       />
       <div className="p-4 flex flex-col gap-4">
         <h3 className="font-bold text-center text-lg">{card.question}</h3>
